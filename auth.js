@@ -2,7 +2,7 @@ function login(username, password) {
     if (username === "admin" && password === "1234") {
         return "Authentication successful";
     } else {
-        return "Authentication failed";
+        return "Access denied";
     }
 }
 
