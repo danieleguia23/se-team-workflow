@@ -1,6 +1,6 @@
 function login(username, password) {
     if (username === "admin" && password === "1234") {
-        return "Welcome Admin";
+        return "Authentication successful";
     } else {
         return "Access denied";
     }
